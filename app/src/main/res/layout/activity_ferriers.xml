@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="phonecall.rednak71.com.thundersfarm.Ferriers"
+    android:background="@mipmap/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/ferrier_text"
+        android:id="@+id/ferrierTextTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/randy_hoy"
+        android:id="@+id/hoytextView"
+        android:layout_below="@+id/ferrierTextTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:textColor="#000000" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_hoy"
+        android:id="@+id/callHoybutton"
+        android:layout_alignBottom="@+id/hoytextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/herold_text_view"
+        android:id="@+id/herooldtextView"
+        android:layout_below="@+id/callHoybutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_herold"
+        android:id="@+id/callHeroldButtonID"
+        android:layout_alignBottom="@+id/herooldtextView"
+        android:layout_alignLeft="@+id/callHoybutton"
+        android:layout_alignStart="@+id/callHoybutton"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/dustin_brandi_text_view"
+        android:id="@+id/dustinTextView"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/callHeroldButtonID"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_dustin_button"
+        android:id="@+id/callDustinButtonID"
+        android:layout_alignBottom="@+id/dustinTextView"
+        android:layout_alignRight="@+id/callHeroldButtonID"
+        android:layout_alignEnd="@+id/callHeroldButtonID"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/moore_text_view"
+        android:id="@+id/ryandMooreTextView"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/dustinTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_moore_button"
+        android:id="@+id/callMooreButtonID"
+        android:layout_alignBottom="@+id/ryandMooreTextView"
+        android:layout_alignRight="@+id/callDustinButtonID"
+        android:layout_alignEnd="@+id/callDustinButtonID"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/randy_hensley_text_view"
+        android:id="@+id/hensleyTextView"
+        android:layout_below="@+id/callMooreButtonID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_hensley"
+        android:id="@+id/callHensleyButtonID"
+        android:layout_alignBottom="@+id/hensleyTextView"
+        android:layout_alignRight="@+id/callMooreButtonID"
+        android:layout_alignEnd="@+id/callMooreButtonID"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/boll_text_view"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/hensleyTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/bollTextView"
+        android:textColor="#000000" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:id="@+id/callBollButton"
+        android:layout_alignBottom="@+id/bollTextView"
+        android:layout_alignLeft="@+id/callHensleyButtonID"
+        android:layout_alignStart="@+id/callHensleyButtonID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/call_boll"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/dan_white_text_view"
+        android:id="@+id/danWhiteTextView"
+        android:layout_marginTop="24dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/bollTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:text="@string/call_white_button_id"
+        android:id="@+id/callWhiteButtonID"
+        android:layout_alignBottom="@+id/danWhiteTextView"
+        android:layout_alignLeft="@+id/callBollButton"
+        android:layout_alignStart="@+id/callBollButton" />
+
+
+
+
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/homeButton"
+        android:background="@mipmap/thunders400pxl_logo"
+        android:layout_above="@+id/home"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_view"
+        android:id="@+id/home"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

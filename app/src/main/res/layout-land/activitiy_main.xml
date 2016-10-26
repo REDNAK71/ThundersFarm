@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:padding="16px">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/saddle_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/webButtonID" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/contactUsID"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/contactus_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/calendarImageButtonId"
+        android:layout_alignStart="@+id/calendarImageButtonId" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ferrierButtonID"
+        android:background="@drawable/ferrier_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/vetButtonId"
+        android:background="@drawable/vet_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/calendarImageButtonId"
+        android:layout_toEndOf="@+id/calendarImageButtonId" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/webButtonID"
+        android:background="@mipmap/web_icon"
+        android:contentDescription="web_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:id="@+id/fbImageButtonID"
+        android:background="@drawable/fb_icon"
+        android:layout_alignTop="@+id/webButtonID"
+        android:layout_alignRight="@+id/calendarImageButtonId"
+        android:layout_alignEnd="@+id/calendarImageButtonId" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/calendar_icon"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp"
+        android:id="@+id/calendarImageButtonId"
+        android:layout_alignTop="@+id/vetButtonId"
+        android:layout_toLeftOf="@+id/ferrierButtonID"
+        android:layout_toStartOf="@+id/ferrierButtonID" />
+
+
+</RelativeLayout>

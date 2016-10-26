@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Thunders Farm</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact">Contact Us</string>
+
+
+    <string name="call_kipper">515-986-4530</string>
+    <string name="call_redechel">515-989-0649</string>
+    <string name="call_appel">515-981-0082</string>
+    <string name="call_howard">515-294-1500</string>
+    <string name="call_harder">515-270-1296</string>
+    <string name="call_sponseller">515-294-1500</string>
+    <string name="title_activity_veterinarian">Veterinarian</string>
+    <string name="red_call">Tel: +5159890649</string>
+    <string name="title_activity_live_stream">LiveStream</string>
+    <string name="home_text_view">Home</string>
+    <string name="sara_etter_text">Sara Etter</string>
+    <string name="call_sara_button">Call</string>
+    <string name="text_sara_button">Text</string>
+    <string name="email_sara_button">Email</string>
+    <string name="judith_text_view">Judith Pim</string>
+    <string name="call_judith_button">Call</string>
+    <string name="text_judith">Text</string>
+    <string name="email_judith">Email</string>
+    <string name="neal_text_view">Neal Kyer</string>
+    <string name="call_neal">Call</string>
+    <string name="neal_text">Text</string>
+    <string name="neal_email">Email</string>
+    <string name="title_activity_ferriers">Farriers</string>
+    <string name="ferrier_text">Farriers</string>
+    <string name="randy_hoy">Randy Hoy</string>
+    <string name="call_hoy">515-490-4593</string>
+    <string name="herold_text_view">Steve Herold</string>
+    <string name="boll_text_view">Keith Boll</string>
+
+    <string name="dustin_brandi_text_view"><![CDATA[Dustin & Brandi Gean]]></string>
+    <string name="call_dustin_button">515-664-1620</string>
+    <string name="moore_text_view">Ryan Moore</string>
+    <string name="call_moore_button">515-210-3250</string>
+    <string name="randy_hensley_text_view">Randy Hensley</string>
+    <string name="call_hensley">641-745-5576</string>
+    <string name="chyro_text_view">Chiropractors</string>
+    <string name="woodford_text_View">Dr. Woodford (Chiro)</string>
+    <string name="call_woodford_button">319-560-9899</string>
+    <string name="cline_text_view">DJ Cline (Chiro)</string>
+    <string name="call_cline_button">515-229-4277</string>
+    <string name="king_text_view">Dr. King (Chiro)</string>
+    <string name="call_king_button">641-660-1844</string>
+    <string name="call_herold">515-250-7015</string>
+    <string name="keith_boll" />
+    <string name="call_boll">515-250-9470</string>
+    <string name="vet_text">Veterinarians</string>
+    <string name="farrier_text">Farriers</string>
+    <string name="contatct_text">Contact</string>
+    <string name="calendar_text">Calendar</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="website_text">Website</string>
+    <string name="beatrice_name">Dr. Beatrice Sponseller</string>
+    <string name="dr_harder_name">Dr. Shirley Harder</string>
+    <string name="dr_howard_name">Dr. Joan Howard (ISU)</string>
+    <string name="appel_name_text">Dr. Dixon Appel</string>
+    <string name="kipper_name_text">Dr. Roy Kipper</string>
+    <string name="radechel_name_text">Dr. David Radechel</string>
+    <string name="vets_name_title">Veterinarians</string>
+    <string name="vet_title">Veterinarians</string>
+    <string name="sponseller_text_view">Dr. Beatrice Sponseller (ISU)</string>
+    <string name="dan_white_text_view">Dan White</string>
+    <string name="call_white_button_id">515-231-2425</string>
+    <string name="desc">Logo Home Button</string>
+
+
+</resources>

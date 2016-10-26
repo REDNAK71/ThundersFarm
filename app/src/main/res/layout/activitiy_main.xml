@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:padding="16px">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/saddleImgaeView"
+        android:background="@drawable/saddle_img"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/contactUsID"
+        android:focusableInTouchMode="false"
+        android:background="@drawable/contactus_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ferrierButtonID"
+        android:background="@drawable/ferrier_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/contactUsID"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/vetButtonId"
+        android:background="@drawable/vet_ib"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/ferrierButtonID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/webButtonID"
+        android:background="@mipmap/web_icon"
+        android:contentDescription="web_icon"
+        android:layout_alignTop="@+id/fbImageButtonID"
+        android:layout_alignLeft="@+id/vetButtonId"
+        android:layout_alignStart="@+id/vetButtonId" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/fbImageButtonID"
+        android:background="@drawable/fb_icon"
+        android:layout_below="@+id/ferrierButtonID"
+        android:layout_alignLeft="@+id/ferrierButtonID"
+        android:layout_alignStart="@+id/ferrierButtonID"
+        android:layout_marginTop="49dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/calendarImageButtonId"
+        android:layout_alignBottom="@+id/fbImageButtonID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/calendar_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/farrier_text"
+        android:id="@+id/farrier_text"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textAlignment="textEnd"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/ferrierButtonID"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/contatct_text"
+
+        android:id="@+id/Contact_text"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:textAlignment="textEnd"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/contactUsID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/vet_text"
+        android:id="@+id/vet_text"
+        android:textColor="#000000"
+        android:layout_below="@+id/vetButtonId"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/vetButtonId"
+        android:layout_alignStart="@+id/vetButtonId"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/calendar_text"
+        android:id="@+id/calendar_text"
+        android:layout_below="@+id/calendarImageButtonId"
+        android:layout_alignRight="@+id/calendarImageButtonId"
+        android:layout_alignEnd="@+id/calendarImageButtonId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"
+        android:textColor="#000000" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/facebook_text"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/calendar_text"
+        android:layout_alignLeft="@+id/fbImageButtonID"
+        android:layout_alignStart="@+id/fbImageButtonID"
+        android:layout_alignRight="@+id/fbImageButtonID"
+        android:layout_alignEnd="@+id/fbImageButtonID"
+        android:textColor="#000000"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/website_text"
+        android:id="@+id/textView3"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/webButtonID"
+        android:layout_alignStart="@+id/webButtonID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal"
+        android:textColor="#000000" />
+
+
+</RelativeLayout>
